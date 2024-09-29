@@ -19,10 +19,10 @@ export default function Home() {
               <Link href='#track'>Track</Link>
             </li>
             <li>
-              <Link href='#'>Pricing</Link>
+              <Link href='#pricing'>Pricing</Link>
             </li>
             <li>
-              <Link className={styles.btn} href='#'>
+              <Link className={styles.btn} href='#contact'>
                 Contact
               </Link>
             </li>
@@ -32,7 +32,7 @@ export default function Home() {
         <span className={styles.subTitle}>
           Unleash Your Potential, One Rep at a Time!
         </span>
-        <Link className={`${styles.btn} ${styles.btnGrow}`} href='#'>
+        <Link className={`${styles.btn} ${styles.btnGrow}`} href='/policies'>
           Learn More
         </Link>
         <Image
@@ -44,10 +44,8 @@ export default function Home() {
         />
       </header>
       <main className={styles.main}>
-        <section className={styles.section}>
-          <h2 id='track' className={styles.sectionTitle}>
-            Track
-          </h2>
+        <section id='track' className={styles.section}>
+          <h2 className={styles.sectionTitle}>Track</h2>
           <div className={styles.trackGrid}>
             <div className={styles.trackGridItem}>
               <Image
@@ -120,7 +118,10 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className={`${styles.section} ${styles.sectionAccent}`}>
+        <section
+          id='pricing'
+          className={`${styles.section} ${styles.sectionAccent}`}
+        >
           <div className={styles.pricingCardsContainer}>
             <div className={styles.pricingCard}>
               <div className={styles.priceHeader}>
@@ -177,7 +178,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className={styles.section}>
+        <section id='contact' className={styles.section}>
           <h2 className={styles.sectionTitle}>Contact</h2>
           <form className={styles.form} action='/send'>
             <label htmlFor='name'>Name</label>
@@ -206,15 +207,33 @@ export default function Home() {
             src='/image/logo.png'
             alt='AwesomeFit App Logo'
           />
+          <div className={styles.appLinks}>
+            <a href='№' target='_blank' rel='noopener noreferrer'>
+              <Image
+                width='100'
+                height='100'
+                src='https://gymteam.kinescopecdn.net/img/l/common/appstore_icon.svg'
+                alt=''
+              />
+            </a>
+            <a href='#' target='_blank' rel='noopener noreferrer'>
+              <Image
+                width='100'
+                height='100'
+                src='https://gymteam.kinescopecdn.net/img/l/common/play_icon.svg'
+                alt=''
+              />
+            </a>
+          </div>
           <ul className={styles.navList}>
             <li>
               <Link href='#track'>Track</Link>
             </li>
             <li>
-              <Link href='#'>Pricing</Link>
+              <Link href='#pricing'>Pricing</Link>
             </li>
             <li>
-              <Link className={styles.btn} href='#'>
+              <Link className={styles.btn} href='#contact'>
                 Contact
               </Link>
             </li>
