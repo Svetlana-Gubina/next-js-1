@@ -9,8 +9,8 @@ export default function Home() {
         <nav className={`${styles.nav} ${styles.navTop}`}>
           <Image
             className={styles.logo}
-            width='50'
-            height='200'
+            width='150'
+            height='100'
             src='/image/logo.png'
             alt='AwesomeFit App Logo'
           />
@@ -53,7 +53,7 @@ export default function Home() {
               <Image
                 width='100'
                 height='100'
-                src='img/html_icon.svg'
+                src='/image/1-1.svg'
                 alt='HTML 5 Icon'
               />
               <p>
@@ -65,7 +65,7 @@ export default function Home() {
               <Image
                 width='100'
                 height='100'
-                src='img/node_js_icon.svg'
+                src='/image/1-2.svg'
                 alt='Node JS Icon'
               />
               <p>
@@ -77,7 +77,7 @@ export default function Home() {
               <Image
                 width='100'
                 height='100'
-                src='img/vscode_icon.svg'
+                src='/image/1-3.svg'
                 alt='Visual Studio Code Icon'
               />
               <p>Include calorie tracking and healthy recipe suggestions.</p>
@@ -86,7 +86,7 @@ export default function Home() {
               <Image
                 width='100'
                 height='100'
-                src='img/database_icon.svg'
+                src='/image/1-4.svg'
                 alt='Database Icon'
               />
               <p>
@@ -98,7 +98,7 @@ export default function Home() {
               <Image
                 width='100'
                 height='100'
-                src='img/edit_page_icon.svg'
+                src='/image/1-5.svg'
                 alt='Web Page Edit Icon'
               />
               <p>
@@ -110,7 +110,7 @@ export default function Home() {
               <Image
                 width='100'
                 height='100'
-                src='img/react_icon.svg'
+                src='/image/1-6.svg'
                 alt='React Icon'
               />
               <p>
@@ -201,8 +201,8 @@ export default function Home() {
         <nav className={styles.nav}>
           <Image
             className={styles.logo}
-            width='50'
-            height='200'
+            width='150'
+            height='100'
             src='/image/logo.png'
             alt='AwesomeFit App Logo'
           />
