@@ -49,11 +49,9 @@ export default function Policies() {
           including:
         </p>
         <ul className={styles.list}>
-          <li>
-            {' '}
-            - Device information (e.g., device type, operating system) - IP
-            address - Location data (with your consent){' '}
-          </li>
+          <li> - Device information (e.g., device type, operating system)</li>
+          <li>- IP address </li>
+          <li>- Location data (with your consent) </li>
           <li>- Log data (e.g., time and date of access) </li>
         </ul>
 
@@ -62,18 +60,15 @@ export default function Policies() {
           We may use the information we collect for various purposes, including:
         </p>
         <ul className={styles.list}>
-          <li>
-            - To provide and maintain our App - To personalize your experience -
-            To improve our services and develop new features
-          </li>
+          <li>- To provide and maintain our App</li>
+          <li>- To personalize your experience</li>
+          <li>- To improve our services and develop new features</li>
           <li>
             - To communicate with you, including sending updates and promotional
             materials
           </li>
-          <li>
-            - To monitor usage and analyze trends - To comply with legal
-            obligations
-          </li>
+          <li>- To monitor usage and analyze trends</li>
+          <li>- To comply with legal obligations</li>
         </ul>
 
         <h3 className={styles.heading}>Sharing Your Information</h3>
@@ -83,14 +78,16 @@ export default function Policies() {
         </p>
         <ul className={styles.list}>
           <li>
-            - With Service Providers: We may employ third-party companies and
-            individuals to facilitate our App (&quot;Service Providers&quot;),
-            provide the App on our behalf, perform App-related services, or
-            assist us in analyzing how our App is used.
+            <span className={styles.italic}>- With Service Providers:</span> We
+            may employ third-party companies and individuals to facilitate our
+            App (&quot;Service Providers&quot;), provide the App on our behalf,
+            perform App-related services, or assist us in analyzing how our App
+            is used.
           </li>
           <li>
-            - For Legal Reasons: We may disclose your information if required to
-            do so by law or in response to valid requests by public authorities.
+            <span className={styles.italic}>- For Legal Reasons:</span> We may
+            disclose your information if required to do so by law or in response
+            to valid requests by public authorities.
           </li>
         </ul>
 
@@ -109,12 +106,16 @@ export default function Policies() {
         <ul className={styles.list}>
           <li>
             - The right to access and receive a copy of the personal information
-            we hold about you. - The right to request correction of any
-            inaccurate personal information.
+            we hold about you.
           </li>
           <li>
             - The right to request deletion of your personal information. To
-            exercise these rights, please contact us at awesomefit@gmail.com.
+            exercise these rights, please contact us at{' '}
+            <a href='mailto:awesomefit@gmail.com'>awesomefit@gmail.com</a>.
+          </li>
+          <li>
+            - The right to request correction of any inaccurate personal
+            information.
           </li>
         </ul>
 

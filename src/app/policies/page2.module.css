@@ -69,8 +69,13 @@
     font-weight: bold;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .email {
     padding: 0 0.5em;
+    font-style: italic;
 }
 
 .email:hover,
